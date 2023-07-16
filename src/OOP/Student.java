@@ -1,14 +1,14 @@
 package OOP;
 
 public class Student {
-    public String name;
-    public String email;
+    public String name; // cac thuoc tinh
+    protected String email;
     public int age;
     public String gender;
-    public String phoneNumber;
-   public Student() {}
+    protected String phoneNumber;
+   public Student() {} // ham tao khong tham so
 
-    public Student(String name, String email, int age, String gender, String phoneNumber) {
+    public Student(String name, String email, int age, String gender, String phoneNumber) { // ham tao day du tham so
         this.name = name;
         this.email = email;
         this.age = age;
